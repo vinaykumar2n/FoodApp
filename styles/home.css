@@ -1,0 +1,112 @@
+
+#searchbox{
+    width: 38%;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+}
+#inputbox{
+    width: 98%;
+    height: 35px;
+}
+#searchIcon{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 7px;
+    right: 6px;
+}
+#dropdown{
+    position: absolute;
+    top: 40px;
+    z-index: 2;
+    width: 93%;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    border: 1px solid rgb(255, 41, 41);
+    display: none;
+}
+.droplist{
+    list-style: none;
+}
+.litem{
+    padding: 8px;
+}
+.litem:hover{
+    color: #E23744;
+    cursor: pointer;
+}
+/* ------display------------ */
+#display{
+    display: none;
+}
+#boxdiv{
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    padding-top: 5px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;    
+}
+.topDiv{
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    width: 45%;
+}
+.left>img{
+    width: 100%;
+    max-height: 350px;
+}
+
+.right{
+    width: 45%;
+}
+.allIng{
+    line-height: 18px;
+}
+.bottomDiv{
+    padding: 20px;
+}
+
+@media all and (min-width: 581px) and (max-width: 850px) {
+    #boxdiv{
+        width: 80%;
+    }
+    #navOptions{
+        width: 65%;
+        font-size: 14px;
+    }
+    #appName{
+        width: 20%;
+        font-size: 14px;
+    }
+    #searchbox{
+        width: 55%;
+    }
+    .allIng{
+        line-height: 18px;
+    }
+}
+/* Small screens */
+@media all and (min-width: 100px) and (max-width: 580px) {
+    #boxdiv{
+        width: 90%;
+    }
+    #navOptions{
+        width: 70%;
+        font-size: 11px;
+    }
+    #appName{
+        width: 20%;
+        font-size: 11px;
+    }
+    #searchbox{
+        width: 70%;
+    }
+    .allIng{
+        line-height: 20px;
+    }
+}

@@ -1,0 +1,22 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E23744;
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+#appName{
+    width: 12%;
+    display: flex;
+    justify-content: center;
+}
+#navOptions{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
